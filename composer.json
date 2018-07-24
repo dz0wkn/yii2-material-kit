@@ -1,13 +1,13 @@
 {
-    "name": "ramosisw/yii2-material-dashboard",
-    "description": "Material dashboard backend theme asset bundle for Yii 2.0 Framework",
+    "name": "dz0wkn/yii2-material-kit",
+    "description": "Material kit backend theme asset bundle for Yii 2.0 Framework",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","material","dashboard","admin","theme","backend","asset","css","less"],
-    "license": "MIT",
+    "keywords": ["yii2","extension","material","kit","admin","theme","backend","asset","css","less"],
+    "license": "MK",
     "version" : "1.0.0",
     "authors": [{
-        "name": "Julio C. Ramos",
-        "email": "ramosisw@gmail.com"
+        "name": "dz0wkn",
+        "email": "abduqodir274@gmail.com"
     }],
     "require": {
         "yiisoft/yii2": "2.*",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ramosisw\\CImaterial\\": ""
+            "dz0wkn\\MK\\": ""
         }
     },
     "extra": {
