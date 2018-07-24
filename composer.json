@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension","material","kit","admin","theme","backend","asset","css","less"],
     "license": "MK",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "authors": [{
         "name": "dz0wkn",
         "email": "abduqodir274@gmail.com"
@@ -20,7 +20,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "1.0.1"
         }
     }
 }
