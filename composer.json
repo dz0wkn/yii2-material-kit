@@ -1,26 +1,10 @@
 {
     "name": "dz0wkn/yii2-material-kit",
-    "description": "Material kit backend theme asset bundle for Yii 2.0 Framework",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension","material","kit","admin","theme","backend","asset","css","less"],
-    "license": "MIT",
-    "version" : "1.0.0",
-    "authors": [{
-        "name": "Abduqodir",
-        "email": "abduqodir274@gmail.com"
-    }],
+    "description": "fghkhj",
+    "type": "library",
     "require": {
-        "yiisoft/yii2": "2.*",
-        "yiisoft/yii2-bootstrap": "2.*"
+        "dz0wkn/yii2-material-kit": "1.0.1"
     },
-    "autoload": {
-        "psr-4": {
-            "dz0wkn\\CImaterial\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    }
+    "license": "MIT",
+    "minimum-stability": "dev"
 }
