@@ -1,5 +1,5 @@
 <?php
-namespace ramosisw\CImaterial\web;
+namespace dz0wkn\mk\web;
 
 use yii\base\Exception;
 use yii\web\AssetBundle as BaseMaterialAsset;
@@ -10,39 +10,27 @@ use yii\web\AssetBundle as BaseMaterialAsset;
  */
 class MaterialAsset extends BaseMaterialAsset
 {
-    public $sourcePath = '@vendor/ramosisw/yii2-material-dashboard/assets';
+    public $sourcePath = '@vendor/dz0wkn/yii2-material-kit/assets';
 
 
     public $css = [
-        'abc/css/material-kit.css?v=2.0.4',
-        // 'css/material-dashboard.css',
-        // 'abc/css/material-kit.css',
-         'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+        'css/material-kit.css?v=2.0.4',
+        'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
         'http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons',
-        // 'https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=2.0.4',
     ];
 
     public $js = [
-        // 'js/material.min.js',
-        // 'js/chartist.min.js',
-        // 'js/bootstrap-notify.js',
-        // 'js/material-dashboard.js',
-        // 'js/superfish.js',
-        "abc/js/plugins/moment.min.js",
-        "abc/js/core/jquery.min.js",
-        "abc/js/core/popper.min.js",
-        "abc/js/core/bootstrap-material-design.min.js",
-        "abc/js/plugins/bootstrap-datetimepicker.js",
-        "abc/js/plugins/nouislider.min.js",
-        "abc/js/plugins/jquery.sharrre.js",
-        "abc/js/material-kit.js?v=2.0.4"
+        "js/plugins/moment.min.js",
+        "js/core/jquery.min.js",
+        "js/core/popper.min.js",
+        "js/core/bootstrap-material-design.min.js",
+        "js/plugins/bootstrap-datetimepicker.js",
+        "js/plugins/nouislider.min.js",
+        "js/plugins/jquery.sharrre.js",
+        "js/material-kit.js?v=2.0.4"
     ];
 
     public $depends = [
-        // 'yii\web\YiiAsset',
-        // 'yii\web\JqueryAsset',
-        // 'yii\bootstrap\BootstrapAsset',
-        // 'yii\bootstrap\BootstrapPluginAsset',
     ];
 
 
