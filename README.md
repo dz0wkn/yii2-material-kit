@@ -49,46 +49,6 @@ if (class_exists('dz0wkn\CImaterial\web\MaterialAsset')) {
 <!DOCTYPE html>
 ```
 
-
-### What's included
-
-Within the download you'll find the following directories and files:
-
-```
-yii2-material-kit/
-├── assets/
-|   ├── css/
-|   |   ├── bootstrap.min.css
-|   |   ├── material-kit.css
-|   |   └── demo.css
-|   ├── js/
-|   |   ├── bootstrap-notify.js
-|   |   ├── bootstrap.min.js
-|   |   ├── chartist.min.js
-|   |   ├── demo.js
-|   |   ├── jquery-3.1.0.min.js
-|   |   ├── material-kit.js
-|   |   └── material.min.js
-|   ├── sass/
-|   |    ├── md
-|   |    └── material-kit.scss
-|   └── img/
-├── documentation/
-├── examples/
-├── web/
-|   └── MaterialAsset.php
-|
-└── widgets/
-    ├── Alert.php
-    └── MaterialAsset.php
-```
-
-Version logs
-------------
-
-V1.0.0 5 Sept, 2017 - Initial Release
-
-License
--------
-- Copyright 2017 Creative Tim (http://www.creative-tim.com)
-- Licensed under MIT (https://github.com/creativetimofficial/material-kit/blob/master/LICENSE.md)
+Example
+-----
+https://demos.creative-tim.com/material-kit/
