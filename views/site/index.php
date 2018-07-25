@@ -51,7 +51,7 @@
       </div>
     </div>
   </nav>
-  <div class="page-header " data-parallax="true" style="background-image: url('img/bg3.jpg');">
+  <div class="page-header " data-parallax="true" style="background-image: url('<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/bg3.jpg');">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
@@ -500,7 +500,7 @@
       </div>
       <!--             navbar -->
       <div id="navbar">
-        <div class="navigation-example" style="background-image: url('img/bg.jpg');">
+        <div class="navigation-example" style="background-image: url('<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/bg.jpg');">
           <!--        rose navbar with search form -->
           <nav class="navbar navbar-expand-lg bg-rose">
             <div class="container">
@@ -636,7 +636,7 @@
                   <li class="dropdown nav-item">
                     <a href="#pablo" class="profile-photo dropdown-toggle nav-link" data-toggle="dropdown">
                       <div class="profile-photo-small">
-                        <img src="img/faces/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+                        <img src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/faces/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
                       </div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
@@ -1089,19 +1089,19 @@
           <div class="row">
             <div class="col-sm-2">
               <h4>Rounded Image</h4>
-              <img src="img/faces/avatar.jpg" alt="Rounded Image" class="rounded img-fluid">
+              <img src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/faces/avatar.jpg" alt="Rounded Image" class="rounded img-fluid">
             </div>
             <div class="col-sm-2 ml-auto">
               <h4>Circle Image</h4>
-              <img src="img/faces/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+              <img src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/faces/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
             </div>
             <div class="col-sm-2 ml-auto">
               <h4>Rounded Raised</h4>
-              <img src="img/faces/avatar.jpg" alt="Raised Image" class="img-raised rounded img-fluid">
+              <img src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/faces/avatar.jpg" alt="Raised Image" class="img-raised rounded img-fluid">
             </div>
             <div class="col-sm-2 ml-auto">
               <h4>Circle Raised</h4>
-              <img src="img/faces/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+              <img src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/faces/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
             </div>
           </div>
           <div class="row">
@@ -1175,7 +1175,7 @@
           <div class="col-md-8 mr-auto ml-auto">
             <!-- Carousel Card -->
             <div class="card card-raised card-carousel">
-              <div id="carouselExampleIndicators" class="carousel carousel-fade" data-ride="carousel" data-interval="3000">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -1183,7 +1183,7 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/bg2.jpg" alt="First slide">
+                    <img class="d-block w-100" src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/bg2.jpg" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                       <h4>
                         <i class="material-icons">location_on</i> Yellowstone National Park, United States
@@ -1191,7 +1191,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/bg3.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/bg3.jpg" alt="Second slide">
                     <div class="carousel-caption d-none d-md-block">
                       <h4>
                         <i class="material-icons">location_on</i> Somewhere Beyond, United States
@@ -1199,7 +1199,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/bg.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/bg.jpg" alt="Third slide">
                     <div class="carousel-caption d-none d-md-block">
                       <h4>
                         <i class="material-icons">location_on</i> Yellowstone National Park, United States
@@ -1233,7 +1233,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-signup page-header" style="background-image: url('img/city.jpg');">
+    <div class="section section-signup page-header" style="background-image: url('<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/city.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 ml-auto mr-auto">
@@ -1297,13 +1297,13 @@
         <div class="row">
           <div class="col-md-6">
             <a href="examples/landing-page.html" target="_blank">
-              <img src="img/landing.jpg" alt="Rounded Image" class="img-raised rounded img-fluid">
+              <img src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/landing.jpg" alt="Rounded Image" class="img-raised rounded img-fluid">
               <button class="btn  btn-link btn-primary btn-lg">View Landing Page</button>
             </a>
           </div>
           <div class="col-md-6">
             <a href="examples/profile-page.html" target="_blank">
-              <img src="img/profile.jpg" alt="Rounded Image" class="img-raised rounded img-fluid">
+              <img src="<?=dz0wkn\MK\web\MaterialAsset::register($this)->baseUrl?>/img/profile.jpg" alt="Rounded Image" class="img-raised rounded img-fluid">
               <button class="btn btn-link btn-primary btn-lg">View Profile Page</button>
             </a>
           </div>
