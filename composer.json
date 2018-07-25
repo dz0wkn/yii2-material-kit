@@ -2,9 +2,8 @@
     "name": "dz0wkn/yii2-material-kit",
     "description": "Material kit theme",
     "type": "yii2-extension",
-    "version" : "1.0.0",
-    "license": "MIT",
-    "minimum-stability": "dev",
+    "version" : "1.0.1",
+    "license": "MK",
     "authors": [{
         "name": "Abduqodir G'ofurjonov",
         "email": "abduqodir274@gmail.com"
@@ -15,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "dz0wkn\\CImaterial\\": ""
+            "dz0wkn\\MK\\": ""
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "1.0.1"
         }
     }
 }
