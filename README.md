@@ -7,7 +7,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install Material Kit run:
 
 ```sh
-php composer.phar require dz0wkn/yii2-material-kit "*"
+php composer require dz0wkn/yii2-material-kit "*"
 ```
 
 ## Or
