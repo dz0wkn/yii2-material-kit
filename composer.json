@@ -3,7 +3,7 @@
     "description": "Material kit theme",
     "type": "yii2-extension",
     "version" : "1.0.1",
-    "license": "MK",
+    "license": "MIT",
     "authors": [{
         "name": "Abduqodir G'ofurjonov",
         "email": "abduqodir274@gmail.com"
