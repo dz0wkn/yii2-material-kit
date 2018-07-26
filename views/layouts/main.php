@@ -29,6 +29,9 @@ if (class_exists('dz0wkn\mk\web\MaterialAsset')) {
 <?php $this->beginBody() ?>
 
 <div class="wrap">
+        <a href="#top" class="" style="z-index: 999; right: 100px;bottom: 100px; position: fixed; background-color: rgba(0,0,0,0.5);color: white;font-size: 3em;padding: 0 10px 0px;margin: 0px; font-weight: 900; border: 5px solid white; border-radius: 15px;">
+            <span class="fa fa-angle-double-up" style=""></span>
+        </a>
         <?= Alert::widget() ?>
         <?= $content ?>
 </div>
