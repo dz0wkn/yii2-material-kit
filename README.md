@@ -49,5 +49,5 @@ dz0wkn\mk\web\MaterialAsset::register($this);
 
 Example
 -----
-https://demos.creative-tim.com/material-kit/
+https://demos.creative-tim.com/material-kit/, 
 https://www.creative-tim.com/
