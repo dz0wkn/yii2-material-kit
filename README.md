@@ -7,7 +7,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install Material Kit run:
 
 ```sh
-php composer require dz0wkn/yii2-material-kit "1.0.x-dev"
+composer require dz0wkn/yii2-material-kit "1.0.x-dev"
 ```
 
 ## Or
@@ -25,7 +25,7 @@ Add to composer.json
 And run
 
 ```sh
-php composer.phar update
+composer update
 ```
 
 Usage
@@ -41,9 +41,7 @@ in your layouts/main.php include followin code
 use yii\dependencies
 */
 //Register class
-if (class_exists('dz0wkn\CImaterial\web\MaterialAsset')) {
-    dz0wkn\CImaterial\web\MaterialAsset::register($this);
-}
+dz0wkn\mk\web\MaterialAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
