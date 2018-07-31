@@ -1,4 +1,4 @@
-# [Yii2 Material Kit - Free Bootstrap Material Design Admin](http://example.com)
+# [Yii2 Material Kit - Free Bootstrap Material Design ](http://example.com)
 
 Installation
 ------------
@@ -50,3 +50,4 @@ dz0wkn\mk\web\MaterialAsset::register($this);
 Example
 -----
 https://demos.creative-tim.com/material-kit/
+https://www.creative-tim.com/
